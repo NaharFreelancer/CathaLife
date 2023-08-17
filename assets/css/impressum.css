@@ -76,18 +76,10 @@ a {
 
 .dark-box{
     background-image: linear-gradient(90deg, #2B3127 51%, rgba(255, 255, 255, 0) 0);
-    height:167px;
-}
-.contact__img__section{
-    padding-bottom: 57px;
+    height:50px;
 }
 
-.contact__img__area{
-    margin-top: -167px;
-
-}
-
-.h1__img{
+.h1__impressum{
     color: #2B3127;
     text-align: center;
     font-family: BOOWIE;
@@ -96,39 +88,23 @@ a {
     font-weight: 400;
     line-height: normal;
     padding: 40px 0;
-}
-.form__section{
-    padding-bottom: 50px;
-}
-.form__name{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap:30px;
-}
-.form-group{
-    width: 100%;
-}
 
-input[type=text], input[type=number], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 0.5px solid #2B3127;
-    background: rgba(168, 155, 138, 0.05);
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
+}
+.impressum__content{
+    color: #000;
+    font-family: DaxlinePro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+    padding: 60px 0;
 
-  
-  input[type=submit] {
-    color: #2B3127;
-    border: 0.5px solid #2B3127;
-    background: rgba(168, 155, 138, 0.05);
-    cursor: pointer;
-    padding: 20px;
-  }
+
+}
+/* .contact__img__section{
+    padding-bottom: 57px;
+} */
+
   .btn_continue{
     color: #2B3127;
     text-align: center;
@@ -141,26 +117,13 @@ input[type=text], input[type=number], select, textarea {
     padding: 12px 34px 10px 34px;
 }
 
-.btn__contact{
-    text-align: center;
-    border: 1px solid #2B3127;
-    padding: 12px 34px 10px 34px;
-    color:#fff ;
-    background-color:#2B3127 ;
-    font-family: DaxlinePro;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 20px; 
-    font-style: normal;
-    } 
-
   
 .btn__group {
     padding: 60px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} 
 
 
 .footer__section{

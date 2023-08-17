@@ -38,7 +38,7 @@ a {
 
 }
 .container{
-    max-width: 1040px;
+    max-width: 1170px;
 }
 .nav__bar{
     display: flex;
@@ -183,8 +183,8 @@ a {
     line-height: 20px; 
     font-style: normal;
     /* float: right; */
-
     } 
+
 .btn__group {
     padding-bottom: 48px;
     display: flex;

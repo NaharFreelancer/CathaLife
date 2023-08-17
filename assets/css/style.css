@@ -34,7 +34,7 @@ a {
 
 }
 .container{
-    max-width: 1040px;
+    max-width: 1170px;
 }
 .nav__bar{
     display: flex;
@@ -84,7 +84,7 @@ font-family: BOOWIE;
 font-size: 20px;
 font-weight: 400;
 letter-spacing: 2px;
-padding: 10px 0;
+padding: 30px 0;
 }
 .Sign{
 color: #272721;
@@ -128,7 +128,7 @@ font-size: 40px;
 font-weight: 400;
 line-height: 50px; 
 letter-spacing: 0.8px;
-padding: 22px 0 50px;
+padding:50px 0;
 }
 
 .about__section{
