@@ -1,0 +1,339 @@
+/* Media query for mobile devices (max-width: 767px) */
+@media (max-width: 800px) {
+    .menu__bar ul {
+        display: none; /* Hide the menu items by default */
+        flex-direction: column; /* Arrange items in a column */
+        position: absolute;
+        top: 60px; /* Adjust as needed */
+        right: 0;
+        background-color: #2B3127;
+        width: 100%;
+        z-index: 1000;
+        padding: 10px 0;
+    }
+
+    .menu__bar ul li {
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    /* Show the menu when the menu icon is clicked */
+    .menu__bar.show-menu ul {
+        display: flex;
+    }
+
+    /* Style the menu icon */
+    #menuIcon {
+        display: block;
+    }
+
+}
+
+
+
+
+/* Media query for tablet and larger screens (992px and above) */
+@media (min-width: 992px) {
+    /* Adjust padding of nav__bar and menu__bar */
+    .nav__bar,
+    .menu__bar {
+        padding: 20px 0;
+    }
+
+    /* Adjust font size for tagline */
+    .tagline span {
+        font-size: 24px;
+    }
+
+    /* Adjust padding for menu items */
+    .menu__bar ul li {
+        padding: 15px 20px;
+    }
+
+    /* Display menu items horizontally */
+    .menu__bar ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    /* Hide menu icon on larger screens */
+    #menuIcon {
+        display: none;
+    }
+}
+
+/* Media query for small tablet and larger mobile screens (768px and above) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Adjust padding of nav__bar and menu__bar */
+    .nav__bar,
+    .menu__bar {
+        padding: 15px 0;
+    }
+
+    /* Adjust font size for tagline */
+    .tagline span {
+        font-size: 22px;
+    }
+
+    /* Adjust padding for menu items */
+    .menu__bar ul li {
+        padding: 10px 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+.hero__area img {
+    max-width: 100%;
+    height: auto;
+}
+.hero__content h1 {
+    font-size: 20px;
+}
+.second__row h2{
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 20px;
+
+}
+}
+
+/* Media query for small tablet and larger mobile screens (768px and above) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .about__section{
+        margin-bottom: 30px;
+
+    }
+    .about__img {
+        padding: 40px;
+    }
+    
+    .about {
+        font-size: 16px;
+        padding: 50px 20px;
+    }
+    
+    .btn_dark {
+        padding: 10px 25px;
+    }
+    .uber{
+        text-align: center;
+        padding: 15px 0;
+        font-size: 30px;
+    }
+}
+
+/* Media query for small tablet and larger mobile screens (768px and above) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .life__section {
+        margin-bottom: 100px;
+    }
+
+    .life__text {
+        padding: 15px 0;
+    }
+    .life{
+        text-align: center;
+        font-size: 30px;
+        padding: 15px 0;
+    }
+    .life__img{
+        text-align: center;
+   }
+    .btn_continue{
+        margin-bottom: 20px;
+    }
+}
+
+/* Media query for small tablet and larger mobile screens (768px and above) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .three__column {
+        margin-bottom: 80px;
+    }
+    
+    .column__text {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+}
+
+
+/* Media query for small tablet and larger mobile screens (768px and above) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .image__section {
+        background-position: center;
+        background-size: cover;
+        height: 500px; /* Adjust the height as needed */
+    }
+}
+
+/* Media query for small tablet and larger mobile screens (768px and above) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .contact__section {
+        margin-bottom: 100px;
+    }
+    
+    .contact,
+    .kontakt {
+        padding: 30px;
+    }
+    
+    .btn__contact {
+        padding: 10px 25px;
+    }
+}
+
+/* Media query for small tablet and larger mobile screens (768px and above) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer__menu ul li {
+        padding: 10px 15px;
+    }
+    
+    .footer__content {
+        font-size: 10px;
+    }
+}
+
+
+
+/* Common styles for all devices */
+
+/* Small devices (up to 576px) */
+@media (max-width: 576px) {
+    /* Header */
+    .logo__section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tagline {
+        text-align: center;
+    }
+    .menu__bar {
+        display: none;
+    }
+    #menuIcon {
+        display: block;
+    }
+    .menu-list.show-menu {
+        display: block;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #2B3127;
+        padding: 20px;
+    }
+    .menu-list.show-menu ul li {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    /* Hero Section */
+    .hero__content h1 {
+        font-size: 18px;
+    }
+    .Sign {
+        font-size: 18px;
+        padding: 0;
+    }
+    .hero__content p {
+        font-size: 10px;
+    }
+    .btn_continue {
+        font-size: 10px;
+    }
+    .second__row {
+        font-size: 24px;
+        padding: 30px 0;
+    }
+    
+    /* About Section */
+    .about__img {
+        padding: 30px;
+    }
+    .about {
+        font-size: 10px;
+        padding: 30px;
+    }
+    .btn_dark {
+        font-size: 10px;
+    }
+    .uber {
+        font-size: 24px;
+        padding: 30px;
+    }
+    
+    /* Life Section */
+    .life {
+        font-size: 24px;
+        padding: 30px 25px 15px 25px;
+    }
+    .life__text {
+        font-size: 10px;
+        padding: 30px;
+    }
+    
+    /* Three Column Section */
+    .column__text {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .three__column {
+        margin-bottom: 80px;
+    }
+    
+    /* Image Section */
+    .image__section {
+        background-size: contain;
+        height: auto;
+        padding: 60px 0;
+    }
+    .img__text {
+        font-size: 24px;
+        padding: 20px;
+    }
+    .img__text__2 {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .img__content {
+        font-size: 10px;
+        padding: 0 20px 60px 20px;
+    }
+    
+    /* Contact Section */
+    .contact__img {
+        padding: 30px;
+    }
+    .contact {
+        font-size: 10px;
+        padding: 30px;
+    }
+    .kontakt {
+        font-size: 24px;
+        padding: 30px;
+    }
+    .btn__contact {
+        font-size: 10px;
+        padding: 10px 30px;
+    }
+    
+    /* Footer Section */
+    .footer__menu ul li {
+        padding: 10px;
+    }
+    .icon__bar ul li {
+        padding: 5px;
+    }
+    .footer__content {
+        font-size: 8px;
+        padding: 15px 0;
+    }
+}
+
+
+
+
+
+
+
+
