@@ -1,4 +1,37 @@
+/* @media (max-width: 1200px) {}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+@media (max-width: 575px) {}
+@media (max-width: 425px) {}
+@media (max-width: 375x) {}
+@media (max-width: 320x) {} */
+
+@media (max-width: 1199px) {
+    .dark-box{
+        background-image: linear-gradient(90deg, #2B3127 2%, rgba(255, 255, 255, 0) 0);
+    }
+    .uber{
+        margin-top: 40px;
+    }
+    .about__content{
+        padding: 20px;
+        text-align: center;
+    }
+    .about__image{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .last__content{
+        text-align: center;
+        padding: 43px 10px 21px;
+    }
+
+}
+
+
+
 /* Media query for mobile devices (max-width: 767px) */
+
 @media (max-width: 800px) {
     .menu__bar ul {
         display: none; /* Hide the menu items by default */
@@ -192,6 +225,8 @@
     
     .footer__content {
         font-size: 10px;
+        letter-spacing: 1px;
+
     }
 }
 
@@ -209,9 +244,9 @@
     .tagline {
         text-align: center;
     }
-    .menu__bar {
+    /* .menu__bar {
         display: none;
-    }
+    } */
     #menuIcon {
         display: block;
     }
@@ -230,6 +265,17 @@
     }
     
     /* Hero Section */
+    .dark-box{
+        background-image: linear-gradient(90deg, #2B3127 2.5%, rgba(255, 255, 255, 0) 0);
+        height:340px;
+    }
+    .about__dark__box{
+        height: 150px;
+
+
+    }
+        
+    
    
     .hero__content h1 {
         font-size: 18px;
@@ -272,7 +318,9 @@
     }
     .uber {
         font-size: 24px;
-        padding: 30px;
+        /* padding: 30px; */
+        text-align: center;
+
     }
     
     /* Life Section */
@@ -329,6 +377,12 @@
     .contact__section{
         margin: 10px 0;
     }
+    .contact__img__section{
+        padding-bottom: 0;
+    }
+    .contact__img__area {
+        margin-top: -340px;
+    }
     .contact__img {
         padding: 30px;
     }
@@ -346,7 +400,9 @@
         font-size: 10px;
         padding: 10px 30px;
     }
-    
+    .form__section{
+        padding-bottom: 20px;
+    }
     /* Footer Section */
     .footer__menu ul li {
         padding: 10px;
@@ -360,11 +416,80 @@
         letter-spacing: 1px;
     }
 }
+/* -----------Small Mobile Device --------------- */
+/* Small devices (up to 375px) */
+@media (max-width: 375px) {
+    /* Adjust navigation bar alignment */
+    .nav__bar {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        padding: 15px 0; /* Increase padding for spacing */
+    }
+    
+    /* Adjust logo and tagline alignment */
+    .logo__section {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        gap: 10px; /* Add some spacing between logo and tagline */
+    }
+
+    /* Hide the menu icon initially */
+    #menuIcon {
+        display: block;
+    }
+
+    /* Display the menu bar when the icon is clicked */
+    .menu__bar ul {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #menuIcon.active + .menu__bar ul {
+        display: block;
+    }
+    
+    /* ... Other styles ... */
+}
 
 
+/* Small devices (up to 375px) */
+@media (max-width: 375px) {
+    .hero__area {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
 
+    .hero__content {
+        text-align: center;
+        padding: 20px; /* Adjust padding for spacing */
+    }
 
+    .hero__content h1 {
+        font-size: 16px; /* Decrease font size */
+        padding: 10px 0; /* Adjust padding for spacing */
+    }
 
+    .Sign {
+        padding: 0; /* Remove padding */
+    }
 
+    .hero__content p {
+        font-size: 10px; /* Decrease font size */
+        padding-bottom: 20px; /* Adjust padding for spacing */
+    }
+
+    .btn_continue {
+        font-size: 10px; /* Decrease font size */
+        padding: 8px 20px; /* Adjust padding for spacing */
+    }
+
+    .second__row {
+        font-size: 24px; /* Decrease font size */
+        padding: 20px 0; /* Adjust padding for spacing */
+    }
+
+    /* ... Other styles ... */
+}
 
 
