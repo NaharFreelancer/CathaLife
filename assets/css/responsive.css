@@ -322,6 +322,11 @@
         text-align: center;
 
     }
+
+    .coach__content{
+        text-align: center;
+        padding-top: 20px;
+    }
     
     /* Life Section */
     .life__section{
@@ -403,6 +408,11 @@
     .form__section{
         padding-bottom: 20px;
     }
+
+    input[type=text], input[type=number], select, textarea{
+        padding: 7px;
+        margin-bottom: 10px;
+    }
     /* Footer Section */
     .footer__menu ul li {
         padding: 10px;
@@ -414,6 +424,9 @@
         font-size: 8px;
         padding: 15px 0;
         letter-spacing: 1px;
+    }
+    .footer__logo{
+        width: 100px;
     }
 }
 /* -----------Small Mobile Device --------------- */
